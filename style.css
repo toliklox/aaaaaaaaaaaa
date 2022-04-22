@@ -1,0 +1,34 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+svg{
+  position: fixed;
+  width:100%;
+  height: 100%;
+  background: #000;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+body{
+  height: 350vh;
+}
+
+textPath {
+  fill: white;
+}
+
+textPath:nth-child(1) {
+  font-size: 40px;
+}
+textPath:nth-child(2) {
+  font-size: 40px;
+}
+textPath:nth-child(3) {
+  font-size: 40px;
+}
